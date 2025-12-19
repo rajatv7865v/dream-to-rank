@@ -11,6 +11,7 @@ import DailyCurrentAffairs from './pages/DailyCurrentAffairs';
 import MonthlyCompilations from './pages/MonthlyCompilations';
 import PracticeMCQs from './pages/PracticeMCQs';
 import Contact from './pages/Contact';
+import MentorRegister from './pages/MentorRegister';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/monthly-compilations" element={<MonthlyCompilations />} />
       <Route path="/practice-mcqs" element={<PracticeMCQs />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/mentor-register" element={<MentorRegister />} />
     </Routes>
   );
 }
