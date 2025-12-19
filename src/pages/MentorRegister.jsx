@@ -6,13 +6,14 @@ function MentorRegister() {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
-    examSpecialization: '',
-    experienceYears: '',
-    achievements: '',
+    examTarget: '',
+    currentStage: '',
+    challenges: '',
+    goals: '',
+    preferredMentorProfile: '',
     availability: '',
     preferredMode: 'online',
     whatsappNumber: '',
-    about: '',
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -29,7 +30,7 @@ function MentorRegister() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Hook this up to backend / Google Sheet / email service
-    console.log('1:1 Mentor Registration', formData);
+    console.log('1:1 Mentorship Registration (Student)', formData);
     setSubmitted(true);
   };
 
@@ -41,18 +42,18 @@ function MentorRegister() {
         <section className="max-w-5xl mx-auto px-4 py-10 md:py-16">
           <div className="max-w-2xl mb-10">
             <p className="text-xs md:text-sm font-semibold tracking-[0.25em] text-blue-500 uppercase mb-3">
-              Become a 1:1 Mentor
+              Get 1:1 Mentorship
             </p>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-              Guide serious aspirants on their journey from{' '}
+              Get personal guidance on your journey from{' '}
               <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 Dream to Rank
               </span>
             </h1>
             <p className="text-slate-600 text-sm md:text-base leading-relaxed">
-              Join our handpicked pool of mentors who have cracked top government exams or have deep
-              experience guiding aspirants. Tell us about your journey and availability so we can
-              match you with the right students for focused 1:1 mentorship.
+              Register for focused 1:1 mentorship with mentors who have cracked top government exams
+              or have deep experience guiding aspirants. Tell us about your preparation, challenges,
+              and availability so we can match you with the right mentor.
             </p>
             <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs md:text-sm">
               <div className="rounded-xl bg-white/80 border border-slate-100 px-3 py-2">
@@ -79,24 +80,24 @@ function MentorRegister() {
             <div className="space-y-6">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-slate-100 shadow-sm p-6">
                 <h2 className="text-lg font-semibold text-slate-900 mb-3">
-                  Why mentor with Dream to Rank?
+                  Why 1:1 mentorship with Dream to Rank?
                 </h2>
                 <ul className="space-y-2 text-sm text-slate-600">
                   <li className="flex gap-2">
                     <span className="mt-1 h-1.5 w-1.5 rounded-full bg-blue-500" />
-                    <span>Impact high-intent aspirants preparing for top competitive exams.</span>
+                    <span>Get personalised guidance for top competitive exams.</span>
                   </li>
                   <li className="flex gap-2">
                     <span className="mt-1 h-1.5 w-1.5 rounded-full bg-indigo-500" />
-                    <span>Flexible slots – you choose your availability and mode of interaction.</span>
+                    <span>Flexible slots – you and your mentor decide timing & mode of interaction.</span>
                   </li>
                   <li className="flex gap-2">
                     <span className="mt-1 h-1.5 w-1.5 rounded-full bg-purple-500" />
-                    <span>Dedicated support from our team to structure sessions & resources.</span>
+                    <span>Structured sessions, resources and regular checkpoints on your progress.</span>
                   </li>
                   <li className="flex gap-2">
                     <span className="mt-1 h-1.5 w-1.5 rounded-full bg-emerald-500" />
-                    <span>Option for paid mentorship based on profile and student demand.</span>
+                    <span>Access to a curated network of mentors across exams and subjects.</span>
                   </li>
                 </ul>
                 <div className="mt-5 flex items-center gap-3">
@@ -107,25 +108,25 @@ function MentorRegister() {
                   />
                   <div>
                     <p className="text-xs font-semibold text-slate-900">
-                      “Mentoring through Dream to Rank lets me give back and stay connected to the exam ecosystem.”
+                      “1:1 mentorship gave me clarity, accountability and a practical strategy I could actually follow.”
                     </p>
-                    <p className="text-[11px] text-slate-500 mt-1">— Ananya, UPSC CSE Mentor</p>
+                    <p className="text-[11px] text-slate-500 mt-1">— Rohan, UPSC CSE Aspirant</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 rounded-2xl p-6 text-white shadow-lg">
-                <h3 className="text-lg font-semibold mb-2">Who can apply?</h3>
+                <h3 className="text-lg font-semibold mb-2">Who is this for?</h3>
                 <p className="text-sm text-blue-50 mb-3">
-                  We welcome:
+                  Ideal for aspirants who:
                 </p>
                 <ul className="space-y-1.5 text-sm text-blue-50/90">
-                  <li>• Selected/appeared candidates in top government exams (UPSC, State PCS, SSC, Banking, etc.)</li>
-                  <li>• Subject experts & senior aspirants with strong exam strategy</li>
-                  <li>• Coaching faculty or professionals with mentoring experience</li>
+                  <li>• Are serious about cracking exams like UPSC, State PCS, SSC, Banking, etc.</li>
+                  <li>• Feel stuck with self-study or coaching and want personalised direction.</li>
+                  <li>• Want an accountability partner to track progress and refine strategy.</li>
                 </ul>
                 <p className="mt-4 text-xs text-blue-100/90">
-                  Your application helps us verify your profile. Our team will reach out within 3–5 working days.
+                  Your details help us match you with the right mentor. Our team will reach out within 3–5 working days.
                 </p>
               </div>
 
@@ -138,25 +139,25 @@ function MentorRegister() {
                     <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 text-[11px] font-semibold text-white">
                       1
                     </span>
-                    <span>Submit this form with your profile, achievements and availability.</span>
+                    <span>Submit this form with your exam details, challenges and availability.</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-600 text-[11px] font-semibold text-white">
                       2
                     </span>
-                    <span>Our team verifies your details and onboards you as a mentor.</span>
+                    <span>Our team reviews your details and finds a suitable mentor for you.</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-purple-600 text-[11px] font-semibold text-white">
                       3
                     </span>
-                    <span>We match you with aspirants whose goals and exam stage fit your expertise.</span>
+                    <span>We connect you with the mentor and schedule your first 1:1 session.</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-600 text-[11px] font-semibold text-white">
                       4
                     </span>
-                    <span>You conduct structured 1:1 sessions, track progress and share feedback.</span>
+                    <span>You follow a structured plan, track progress and get regular feedback.</span>
                   </li>
                 </ol>
                 <div className="mt-4 flex items-center gap-2 rounded-xl bg-slate-50 px-3 py-2">
@@ -173,10 +174,10 @@ function MentorRegister() {
             {/* Right: Form */}
             <div className="bg-white/90 backdrop-blur-sm rounded-2xl border border-slate-100 shadow-lg p-6 md:p-8">
               <h2 className="text-xl font-semibold text-slate-900 mb-1">
-                1:1 Mentor Registration Form
+                1:1 Mentorship Registration Form
               </h2>
               <p className="text-xs text-slate-500 mb-5">
-                Fill in your details and we&apos;ll get back to you with the next steps.
+                Fill in your details and we&apos;ll match you with a suitable mentor and share next steps.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -212,33 +213,32 @@ function MentorRegister() {
 
                 <div className="space-y-1.5">
                   <label className="block text-xs font-medium text-slate-700">
-                    Exam / Subject Specialization<span className="text-red-500">*</span>
+                    Target Exam / Subject<span className="text-red-500">*</span>
                   </label>
                   <input
                     type="text"
-                    name="examSpecialization"
+                    name="examTarget"
                     required
-                    value={formData.examSpecialization}
+                    value={formData.examTarget}
                     onChange={handleChange}
                     className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-200 bg-slate-50/60"
-                    placeholder="e.g. UPSC CSE, SSC CGL (Quant), Banking PO, State PCS, etc."
+                    placeholder="e.g. UPSC CSE 2026, SSC CGL (Quant), Banking PO, State PCS, etc."
                   />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-1.5">
                     <label className="block text-xs font-medium text-slate-700">
-                      Mentoring / Exam Experience (Years)<span className="text-red-500">*</span>
+                      Current Stage of Preparation<span className="text-red-500">*</span>
                     </label>
                     <input
-                      type="number"
-                      min="0"
-                      name="experienceYears"
+                      type="text"
+                      name="currentStage"
                       required
-                      value={formData.experienceYears}
+                      value={formData.currentStage}
                       onChange={handleChange}
                       className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-200 bg-slate-50/60"
-                      placeholder="e.g. 2"
+                      placeholder="e.g. Beginner, 2nd attempt, Working professional, etc."
                     />
                   </div>
 
@@ -262,16 +262,16 @@ function MentorRegister() {
 
                 <div className="space-y-1.5">
                   <label className="block text-xs font-medium text-slate-700">
-                    Key Achievements (Selections / Ranks / Results)<span className="text-red-500">*</span>
+                    Biggest Challenges Right Now<span className="text-red-500">*</span>
                   </label>
                   <textarea
-                    name="achievements"
+                    name="challenges"
                     required
-                    value={formData.achievements}
+                    value={formData.challenges}
                     onChange={handleChange}
                     rows={3}
                     className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-200 bg-slate-50/60 resize-none"
-                    placeholder="Mention exam results, ranks, attempts, teaching/mentoring background, etc."
+                    placeholder="Share where you are stuck – consistency, answer writing, revision, timetable, etc."
                   />
                 </div>
 
@@ -307,15 +307,29 @@ function MentorRegister() {
 
                 <div className="space-y-1.5">
                   <label className="block text-xs font-medium text-slate-700">
-                    Tell us how you like to mentor
+                    What kind of mentor would you prefer?
                   </label>
                   <textarea
-                    name="about"
-                    value={formData.about}
+                    name="preferredMentorProfile"
+                    value={formData.preferredMentorProfile}
                     onChange={handleChange}
                     rows={3}
                     className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-200 bg-slate-50/60 resize-none"
-                    placeholder="Share your mentoring style, focus areas (answer writing, strategy, revision plans, etc.)."
+                    placeholder="e.g. Strict / friendly, focus on strategy / answer writing / basics, preferred language (Hindi/English), etc."
+                  />
+                </div>
+
+                <div className="space-y-1.5">
+                  <label className="block text-xs font-medium text-slate-700">
+                    What do you want to achieve in the next 3–6 months?
+                  </label>
+                  <textarea
+                    name="goals"
+                    value={formData.goals}
+                    onChange={handleChange}
+                    rows={3}
+                    className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-200 bg-slate-50/60 resize-none"
+                    placeholder="e.g. Finish NCERTs once, improve prelims score by 20 marks, complete test series, etc."
                   />
                 </div>
 
@@ -323,7 +337,7 @@ function MentorRegister() {
                   type="submit"
                   className="w-full mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 px-4 py-2.5 text-sm font-semibold text-white shadow-lg hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] transition-all duration-200"
                 >
-                  Submit Mentor Application
+                  Submit Mentorship Request
                   <svg
                     className="w-4 h-4"
                     fill="none"
@@ -341,8 +355,8 @@ function MentorRegister() {
 
                 <p className="text-[11px] text-slate-400 mt-2">
                   By submitting this form, you agree to be contacted by the Dream to Rank team for
-                  verification and onboarding. Your details will be kept confidential and used only
-                  for mentorship-related communication.
+                  mentorship-related communication and mentor matching. Your details will be kept
+                  confidential and used only for mentorship-related communication.
                 </p>
               </form>
             </div>
@@ -374,24 +388,24 @@ function MentorRegister() {
                 <span className="text-lg">✓</span>
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-1.5">
-                Thank you for registering as a mentor!
+                Thank you for registering for 1:1 mentorship!
               </h3>
               <p className="text-xs text-slate-500 mb-4">
-                Scan the QR code below to join our exclusive mentor WhatsApp group and complete your
-                onboarding.
+                Scan the QR code below to join our exclusive mentorship WhatsApp group and stay
+                updated about your mentor allocation and next steps.
               </p>
 
               <div className="mb-4 rounded-xl border border-slate-200 bg-slate-50 p-3">
                 <img
-                  src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://dreamtorank.com/mentors"
-                  alt="Dream to Rank mentor onboarding QR"
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://dreamtorank.com/mentorship"
+                  alt="Dream to Rank mentorship onboarding QR"
                   className="h-40 w-40 object-contain"
                 />
               </div>
 
               <p className="text-[11px] text-slate-500 mb-4">
-                If the QR doesn&apos;t open automatically, you can also visit the mentor onboarding link
-                shared by our team on email.
+                If the QR doesn&apos;t open automatically, you can also visit the mentorship onboarding
+                link shared by our team on email or WhatsApp.
               </p>
 
               <button

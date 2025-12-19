@@ -33,7 +33,7 @@ const Header = () => {
               to="/mentor-register"
               className="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-emerald-600 transition-all duration-300 group"
             >
-              <span className="relative z-10">Become a Mentor</span>
+              <span className="relative z-10">Get 1:1 Mentorship</span>
               <span className="absolute inset-0 bg-emerald-50 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 opacity-0 group-hover:opacity-100"></span>
             </Link>
             {/* <Link
