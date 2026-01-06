@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    allowedHosts: ['dreamtorank.com']
+    allowedHosts: ['dreamtorank.com','www.dreamtorank.com/]
   },
 })
