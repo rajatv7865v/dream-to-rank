@@ -12,7 +12,7 @@ const Pricing = () => {
                 BEST VALUE
               </span>
             </div>
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Dream to Rank Premium</h3>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">dreamtorank Premium</h3>
             <div className="mb-6">
               <span className="text-5xl font-bold text-blue-600">₹5,699</span>
               <span className="text-gray-600 ml-2">till Mains</span>

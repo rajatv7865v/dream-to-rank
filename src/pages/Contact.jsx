@@ -44,8 +44,8 @@ const Contact = () => {
         </div>
         <div className="mt-10 text-center max-w-xl">
           <div className="mb-1 text-gray-500 font-medium">Direct support:</div>
-          <div className="text-indigo-700 font-semibold">Email: ask@dreamtorank.com</div>
-          <div className="text-indigo-700 font-semibold">WhatsApp: +91 9319720944</div>
+          <div className="text-indigo-700 font-semibold">Email: info@dreamtorank.com</div>
+          <div className="text-indigo-700 font-semibold">WhatsApp: +91 966053244</div>
         </div>
       </main>
       <Footer />

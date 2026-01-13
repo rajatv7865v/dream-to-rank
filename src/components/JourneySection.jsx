@@ -16,7 +16,7 @@ const JourneySection = () => {
           </h2>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
             The path to clearing the UPSC exam is a marathon, not a sprint. Every day counts. 
-            Dream to Rank provides you with the strategic edge to conquer the syllabus, master complex topics, 
+            dreamtorank provides you with the strategic edge to conquer the syllabus, master complex topics, 
             and turn your aspirations into achievements.
           </p>
           

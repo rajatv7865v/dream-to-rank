@@ -92,7 +92,7 @@ const Hero = () => {
             
             <div className="text-center pt-6 border-t border-gray-200">
               <p className="text-gray-700 font-semibold text-base md:text-lg">
-                on <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 font-bold text-xl md:text-2xl">Dream to Rank</span>
+                on <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 font-bold text-xl md:text-2xl">dreamtorank</span>
               </p>
             </div>
           </div>

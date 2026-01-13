@@ -36,7 +36,7 @@ const Features = () => {
     <section className="py-20 bg-gradient-to-b from-white to-slate-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
-          Dream to Rank builds accountability
+          dreamtorank builds accountability
         </h2>
         <p className="text-xl text-center text-gray-600 mb-12">
           unlike ChatGPT or Coaching Institutes

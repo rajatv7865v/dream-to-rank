@@ -38,7 +38,7 @@ const Prepare = () => (
     <Header />
     <main className="flex flex-col items-center justify-center px-4 py-16 flex-1 w-full">
       <h1 className="text-4xl font-extrabold text-gradient bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 bg-clip-text text-transparent mb-2">Current Affairs & UPSC Preparation</h1>
-      <p className="text-lg text-gray-600 mb-10 max-w-2xl text-center">Boost your UPSC journey with daily updates, curated resources, and active practice. Use the resources below created specifically for Dream to Rank users.</p>
+      <p className="text-lg text-gray-600 mb-10 max-w-2xl text-center">Boost your UPSC journey with daily updates, curated resources, and active practice. Use the resources below created specifically for dreamtorank users.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl mb-8">
         {tools.map((tool, i) => (
           <div key={i} className={`bg-gradient-to-br ${tool.gradient} rounded-3xl shadow-xl p-8 flex flex-col items-start backdrop-blur border hover:shadow-2xl transition duration-300`}>

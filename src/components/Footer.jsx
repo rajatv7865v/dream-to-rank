@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Dream to Rank</h3>
+            <h3 className="text-2xl font-bold mb-4">dreamtorank</h3>
             <p className="text-gray-400">
               Your personal mentor for UPSC preparation, guiding you at every step of the exam journey.
             </p>
@@ -31,16 +31,12 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">CONTACT US</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <span className="block">Student Queries</span>
-                <a href="mailto:ask@dreamtorank.com" className="hover:text-white transition-colors">ask@dreamtorank.com</a>
-              </li>
-              <li>
-                <span className="block">General Queries</span>
-                <a href="mailto:hello@dreamtorank.com" className="hover:text-white transition-colors">hello@dreamtorank.com</a>
+                <span className="block">Email</span>
+                <a href="mailto:info@dreamtorank.com" className="hover:text-white transition-colors">info@dreamtorank.com</a>
               </li>
               <li>
                 <span className="block">Chat on WhatsApp</span>
-                <a href="https://wa.me/919319720944" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">+91 9319720944</a>
+                <a href="https://wa.me/91966053244" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">+91 966053244</a>
               </li>
             </ul>
           </div>

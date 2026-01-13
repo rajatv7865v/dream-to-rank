@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: 'Ananya Sharma',
     role: 'UPSC Topper, AIR 15',
-    text: 'Dream to Rank transformed my preparation. The mock tests and study plans were spot on for actual exams!',
+    text: 'dreamtorank transformed my preparation. The mock tests and study plans were spot on for actual exams!',
   },
   {
     name: 'Rahul Verma',
@@ -21,7 +21,7 @@ const testimonials = [
   {
     name: 'Amit Kumar',
     role: 'Working Professional, Aspirant',
-    text: 'Balancing job and study became possible with Dream to Rank’s resources and community support.',
+    text: 'Balancing job and study became possible with dreamtorank’s resources and community support.',
   },
   {
     name: 'Sneha Patil',
@@ -41,7 +41,7 @@ const testimonials = [
   {
     name: 'Akash S.',
     role: 'Studied while working',
-    text: 'Being able to access everything on my schedule made all the difference. Thank you Dream to Rank! Highly recommended.',
+    text: 'Being able to access everything on my schedule made all the difference. Thank you dreamtorank! Highly recommended.',
   },
 ];
 

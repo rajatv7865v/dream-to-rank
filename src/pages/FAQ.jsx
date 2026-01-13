@@ -4,12 +4,12 @@ import Footer from '../components/Footer';
 
 const faqs = [
   {
-    q: 'What is Dream to Rank?',
-    a: 'Dream to Rank is an exam prep platform designed to guide UPSC aspirants with resources like previous year questions, curated study materials, detailed analysis, and personalized mentoring.'
+    q: 'What is dreamtorank?',
+    a: 'dreamtorank is an exam prep platform designed to guide UPSC aspirants with resources like previous year questions, curated study materials, detailed analysis, and personalized mentoring.'
   },
   {
     q: 'What exams do you support?',
-    a: 'Currently, Dream to Rank is focused on UPSC exam preparation (Prelims & Mains), with plans to expand to other competitive exams soon.'
+    a: 'Currently, dreamtorank is focused on UPSC exam preparation (Prelims & Mains), with plans to expand to other competitive exams soon.'
   },
   {
     q: 'How can I access Previous Year Questions (PYQs)?',
@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     q: 'Who can I contact for support?',
-    a: 'You can email ask@dreamtorank.com for student queries or hello@dreamtorank.com for general queries. WhatsApp support is also available.'
+    a: 'You can email info@dreamtorank.com for any queries. WhatsApp support is also available at +91 966053244.'
   },
   {
-    q: 'Can I use Dream to Rank on mobile?',
-    a: 'Absolutely! Dream to Rank works smoothly on both mobile and desktop devices.'
+    q: 'Can I use dreamtorank on mobile?',
+    a: 'Absolutely! dreamtorank works smoothly on both mobile and desktop devices.'
   }
 ];
 
@@ -47,7 +47,7 @@ const FAQ = () => {
       <Header />
       <main className="flex flex-col items-center justify-center px-4 py-16 flex-1 w-full">
         <h1 className="text-4xl font-extrabold text-gradient bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 bg-clip-text text-transparent mb-2">Frequently Asked Questions</h1>
-        <p className="text-lg text-gray-600 mb-10">Get answers to your most common doubts about Dream to Rank.</p>
+        <p className="text-lg text-gray-600 mb-10">Get answers to your most common doubts about dreamtorank.</p>
         <div className="w-full max-w-2xl space-y-5">
           {faqs.map((f, idx) => (
             <div key={idx} className="bg-white/90 rounded-xl shadow-lg overflow-hidden border hover:shadow-2xl transition">

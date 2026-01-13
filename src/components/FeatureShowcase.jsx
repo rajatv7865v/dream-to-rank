@@ -30,7 +30,7 @@ const FeatureShowcase = () => {
     <section className="py-20 bg-gradient-to-b from-white via-blue-50/30 to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-4">
-          See Dream to Rank in Action
+          See dreamtorank in Action
         </h2>
         <p className="text-center text-gray-600 mb-12 text-lg max-w-2xl mx-auto">
           Experience the power of AI-driven UPSC preparation with our comprehensive suite of tools

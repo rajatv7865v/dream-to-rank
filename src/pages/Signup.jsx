@@ -39,10 +39,10 @@ const Signup = () => {
         <div className="text-center">
           <Link to="/" className="inline-block">
             <div className="flex items-center justify-center space-x-3 mb-4">
-              <img src={logo} alt="Dream to Rank Logo" className="h-16 w-16 object-contain" />
+              <img src={logo} alt="dreamtorank Logo" className="h-16 w-16 object-contain" />
               <div>
                 <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                  Dream to Rank
+                  dreamtorank
                 </div>
                 <div className="text-sm text-gray-500">Study Smarter, Rank Higher</div>
               </div>

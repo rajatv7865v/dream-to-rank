@@ -47,7 +47,7 @@ function MentorRegister() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4 leading-tight">
               Get personal guidance on your journey from{' '}
               <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Dream to Rank
+                dreamtorank
               </span>
             </h1>
             <p className="text-slate-600 text-sm md:text-base leading-relaxed">
@@ -80,7 +80,7 @@ function MentorRegister() {
             <div className="space-y-6">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-slate-100 shadow-sm p-6">
                 <h2 className="text-lg font-semibold text-slate-900 mb-3">
-                  Why 1:1 mentorship with Dream to Rank?
+                  Why 1:1 mentorship with dreamtorank?
                 </h2>
                 <ul className="space-y-2 text-sm text-slate-600">
                   <li className="flex gap-2">
@@ -354,7 +354,7 @@ function MentorRegister() {
                 </button>
 
                 <p className="text-[11px] text-slate-400 mt-2">
-                  By submitting this form, you agree to be contacted by the Dream to Rank team for
+                  By submitting this form, you agree to be contacted by the dreamtorank team for
                   mentorship-related communication and mentor matching. Your details will be kept
                   confidential and used only for mentorship-related communication.
                 </p>
@@ -398,7 +398,7 @@ function MentorRegister() {
               <div className="mb-4 rounded-xl border border-slate-200 bg-slate-50 p-3">
                 <img
                   src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://dreamtorank.com/mentorship"
-                  alt="Dream to Rank mentorship onboarding QR"
+                  alt="dreamtorank mentorship onboarding QR"
                   className="h-40 w-40 object-contain"
                 />
               </div>

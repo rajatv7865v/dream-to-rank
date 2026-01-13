@@ -12,24 +12,28 @@ import MonthlyCompilations from './pages/MonthlyCompilations';
 import PracticeMCQs from './pages/PracticeMCQs';
 import Contact from './pages/Contact';
 import MentorRegister from './pages/MentorRegister';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/prepare" element={<Prepare />} />
-      <Route path="/faq" element={<FAQ />} />
-      <Route path="/testimonials" element={<Testimonials />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/pyqs" element={<PYQS />} />
-      <Route path="/daily-current-affairs" element={<DailyCurrentAffairs />} />
-      <Route path="/monthly-compilations" element={<MonthlyCompilations />} />
-      <Route path="/practice-mcqs" element={<PracticeMCQs />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/mentor-register" element={<MentorRegister />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/prepare" element={<Prepare />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/pyqs" element={<PYQS />} />
+        <Route path="/daily-current-affairs" element={<DailyCurrentAffairs />} />
+        <Route path="/monthly-compilations" element={<MonthlyCompilations />} />
+        <Route path="/practice-mcqs" element={<PracticeMCQs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/mentor-register" element={<MentorRegister />} />
+      </Routes>
+      <WhatsAppButton />
+    </>
   );
 }
 

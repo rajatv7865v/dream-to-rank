@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/98 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-gradient-to-r from-blue-100 via-indigo-100 to-purple-100">
+    <header className="bg-white/98 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-gray-200">
       <nav className="container mx-auto px-4 md:px-6 py-3 md:py-4">
         <div className="flex items-center justify-between">
           {/* Logo and Brand */}
@@ -15,13 +15,13 @@ const Header = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full blur opacity-20 group-hover:opacity-30 transition-opacity"></div>
               <img 
                 src={logo} 
-                alt="Dream to Rank Logo" 
+                alt="dreamtorank Logo" 
                 className="relative h-12 w-12 md:h-16 md:w-16 object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-300" 
               />
             </div>
             <div className="hidden sm:block">
               <div className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Dream to Rank
+                dreamtorank
               </div>
               <div className="text-xs text-gray-500 font-medium">Study Smarter, Rank Higher</div>
             </div>
