@@ -21,18 +21,18 @@ const JourneySection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-            <button 
+            {/* <button 
               type="button"
               className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5"
             >
               Start Preparation
-            </button>
-            <button 
+            </button> */}
+            {/* <button 
               type="button"
               className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white/10 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5"
             >
               Ask Your Doubts
-            </button>
+            </button> */}
           </div>
           
           {/* Stats */}

@@ -43,9 +43,9 @@ const Pricing = () => {
                 <span>Progress Reports & Analytics</span>
               </li>
             </ul>
-            <button type="button" className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
+            {/* <button type="button" className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
               Get Started Now
-            </button>
+            </button> */}
             <p className="text-sm text-gray-500 mt-4">
               Compare: Coaching Institutes ₹1L+ per year | ChatGPT Pro ₹20K+ per year
             </p>

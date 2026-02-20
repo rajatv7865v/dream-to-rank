@@ -31,12 +31,12 @@ const Hero = () => {
             Your Personal AI Mentor that teaches, instantly evaluates Handwritten Answers & builds Daily Discipline
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button type="button" className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
+            {/* <button type="button" className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
               Start Now
-            </button>
-            <button type="button" className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl border-2 border-blue-300 hover:border-blue-400 hover:-translate-y-0.5">
+            </button> */}
+            {/* <button type="button" className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl border-2 border-blue-300 hover:border-blue-400 hover:-translate-y-0.5">
               Download App
-            </button>
+            </button> */}
           </div>
           <div className="mt-12 flex items-center justify-center gap-8 text-sm text-blue-100">
             <span>Backed by</span>

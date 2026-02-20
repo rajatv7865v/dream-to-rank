@@ -9,15 +9,15 @@ const CTASection = () => {
           An AI-powered ecosystem to learn, practice, and evaluate with discipline
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button type="button" className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
+          {/* <button type="button" className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
             Start Now
-          </button>
-          <button type="button" className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
+          </button> */}
+          {/* <button type="button" className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
             Download App
-          </button>
+          </button> */}
         </div>
         <div className="mt-12 flex justify-center gap-4">
-          <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+          {/* <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
             <div className="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
               Get it on Google Play
             </div>
@@ -26,7 +26,7 @@ const CTASection = () => {
             <div className="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
               Download on the App Store
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
