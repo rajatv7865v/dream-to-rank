@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="text-center text-gray-400 mt-4">
-            ⓒ Snapstack Technologies Private Limited
+            ⓒ SN Traders
           </p>
         </div>
       </div>
