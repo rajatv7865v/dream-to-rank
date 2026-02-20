@@ -9,7 +9,7 @@ const Footer = () => {
               Your personal mentor for UPSC preparation, guiding you at every step of the exam journey.
             </p>
           </div>
-          <div>
+          {/* <div>
             <h4 className="font-semibold mb-4">COMPANY</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">About us</a></li>
@@ -17,8 +17,8 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition-colors">Join Us</a></li>
               <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
             </ul>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h4 className="font-semibold mb-4">STUDY RESOURCES</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">UPSC Preparation</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition-colors">UPSC Mains</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Current Affairs</a></li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h4 className="font-semibold mb-4">CONTACT US</h4>
             <ul className="space-y-2 text-gray-400">
