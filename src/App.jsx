@@ -13,6 +13,9 @@ import PracticeMCQs from './pages/PracticeMCQs';
 import Contact from './pages/Contact';
 import MentorRegister from './pages/MentorRegister';
 import WhatsAppButton from './components/WhatsAppButton';
+import TermsAndConditions from './components/Terms';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import RefundPolicy from './components/RefundPolicy';
 
 function App() {
   return (
@@ -30,7 +33,11 @@ function App() {
         <Route path="/monthly-compilations" element={<MonthlyCompilations />} />
         <Route path="/practice-mcqs" element={<PracticeMCQs />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/mentor-register" element={<MentorRegister />} />
+        <Route path="/terms-condition" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
       </Routes>
       <WhatsAppButton />
     </>

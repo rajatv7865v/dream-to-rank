@@ -48,9 +48,9 @@ const Footer = () => {
               <p className="text-gray-400">State Emblem of India</p>
             </div>
             <div className="flex gap-6 mb-4 md:mb-0">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Refund Policy</a>
+              <a href="/terms-condition" className="text-gray-400 hover:text-white transition-colors">Terms</a>
+              <a href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/refund-policy" className="text-gray-400 hover:text-white transition-colors">Refund Policy</a>
             </div>
           </div>
           <p className="text-center text-gray-400 mt-4">
